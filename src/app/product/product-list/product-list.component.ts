@@ -8,36 +8,36 @@ import { Component } from '@angular/core';
 export class ProductListComponent {
   productos:any[]=[
     {
-      "prodictoID" :1,
+      "productoID" :1,
       "Modelo ": "Senta",
       "Descripcion " : "4 Puertas",
       "Precio " : 20000,
       "Year" : 2023,
       "Marca" : "Nissan",
       "Color" : "Azul",
-      "ImagenUrl" : ""
+      "ImagenUrl" : "https://www.greeleynissan.com/blogs/1612/wp-content/uploads/2022/01/2022-nissan-sentra-midnight-edition-front-3-4-1536x864.jpg"
     },
     {
-      "prodictoID" :2,
-      "Modelo ": "Fiesta",
+      "productoID" :2,
+      "Modelo ": "Forte",
       "Descripcion " : "5 Puertas",
       "Precio " : 34500,
       "Year" : 2022,
       "Marca" : "KIA",
       "Color" : "Rojo",
-      "ImagenUrl" : ""
+      "ImagenUrl" : "https://hips.hearstapps.com/hmg-prod/images/2022-kia-forte-gt-101-1633972551.jpg?crop=0.635xw:0.477xh;0.261xw,0.345xh&resize=1200:*"
     },
     {
-      "prodictoID" :3,
+      "productoID" :3,
       "Modelo ": "Rubicon",
       "Descripcion " : "5 Puertas",
       "Precio " : 2000000,
       "Year" : 2025,
       "Marca" : "JEEP",
       "Color" : "Negra",
-      "ImagenUrl" : ""
+      "ImagenUrl" : "https://th.bing.com/th/id/R.772ab91657b85f12832b0f8f599c87a6?rik=P3kkuer9IL6IrA&pid=ImgRaw&r=0"
     }
   ]
-
+//this.productos.length
 
 }
